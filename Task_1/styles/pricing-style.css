@@ -12,6 +12,7 @@
     align-items: center;
     color: var(--dark-blue);
     margin-bottom: 4rem;
+    text-align: center;
 }
 
 .pricing__heading {
