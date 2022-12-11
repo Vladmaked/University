@@ -28,6 +28,8 @@
     background-color: var(--grey);
     border-radius: 12px;
     padding: 3.5rem 4.5rem;
+    width: 85%;
+    margin: 0 auto;
 }
 
 .form {
