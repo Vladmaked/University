@@ -44,6 +44,10 @@
     margin-bottom: 1.5rem;
 }
 
+.form__row:last-of-type {
+    margin-bottom: 2rem;
+}
+
 .form__row__item {
     width: 100%;
     display: flex;
@@ -83,4 +87,8 @@
     border-radius: 41px;
     font-size: 18px;
     font-family: 'Manrope', sans-serif;
+}
+
+.form__button:hover {
+    opacity: 0.7;
 }
