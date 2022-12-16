@@ -1,0 +1,143 @@
+:root {
+    /*Colors*/
+    --royal-blue: #2405F2;
+    --dark-blue: #282938;;
+    --grey: #f4f6fc;
+    --grey_rgb: 244, 246, 252;
+    --yellow: #FCD980;
+    --tint-blue: #1C1E53;
+    --tint-blue_rgb: 28, 30, 83;
+    --accent: #EEF4FA;
+    --light-yellow: rgba(252, 217, 128, 0.1);
+    --hover-yellow: #FDE4A6;
+    --hover-dark-blue: #535460;
+
+    /*Font-size*/
+    --regular-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--regular-size);
+    font-weight: 400;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+h5 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h6 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.body-1 {
+    font-size: var(--regular-size);
+    font-weight: 400;
+}
+
+.body-2 {
+    font-size: var(--regular-size);
+    font-weight: 500;
+}
+
+.label-1 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.label-2 {
+    font-size: var(--regular-size);
+    font-weight: 500;
+}
+
+.white-text {
+    color: #FFF;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+}
+
+.mr-2 {
+    margin-right: 0.5rem;
+}
+
+.ml-3 {
+    margin-left: 1rem;
+}
+
+.mr-3 {
+    margin-right: 1rem;
+}
+
+.container {
+    width: 80vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bg-w-100 {
+    margin-left: -10vw !important;
+    margin-right: -10vw !important;
+    padding-right: 10vw !important;
+    padding-left: 10vw !important;
+}
+
+.rounded-button {
+    border-radius: 41px;
+    padding: 1rem 3rem;
+}
+
+.yellow-button {
+    background-color: var(--yellow);
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.yellow-button:hover {
+    background-color: var(--hover-yellow);
+}

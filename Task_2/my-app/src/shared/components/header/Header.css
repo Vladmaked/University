@@ -1,0 +1,48 @@
+.header {
+    background-color: var(--tint-blue);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    height: 92px;
+}
+
+.navbar__logo:hover {
+    opacity: 0.7;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__menu__link {
+    color: #BBBBCB;
+    font-size: var(--regular-size);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.navbar__menu__link:not(:last-child) {
+    margin-right: 2rem;
+}
+
+.navbar__menu__link.active {
+    color: #FFF;
+}
+
+.navbar__menu__link:hover {
+    color: #FFF;
+}
+
+.contact-us-button {
+    color: #FFF;
+    border: 2px solid rgba(var(--grey_rgb), 0.2);
+}
+
+.contact-us-button:hover, .contact-us-button.active {
+    border-color: rgb(var(--grey_rgb));
+}

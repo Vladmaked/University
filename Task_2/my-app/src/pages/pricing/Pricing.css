@@ -1,0 +1,147 @@
+.pricing {
+    padding: 128px 0;
+}
+
+.pricing__heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--dark-blue);
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.pricing__heading {
+    margin-bottom: 1rem;
+}
+
+.pricing__subheading {
+    opacity: 0.7;
+    max-width: 562px;
+}
+
+.pricing__cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing__card {
+    width: calc((100% - 4rem) / 3);
+    padding: 4rem 3rem;
+    border-radius: 12px;
+    color: var(--dark-blue);
+}
+
+.light-card {
+    background-color: var(--grey);
+}
+
+.dark-card {
+    background-color: var(--tint-blue);
+    color: #FFF;
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing__card_content-z-index-10 {
+    position: relative;
+    z-index: 10;
+}
+
+.dark-card::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 50%;
+    translate: -50% -50%;
+    background: rgba(255, 255, 255, 0.06);
+    width: 1150px;
+    height: 1150px;
+    border-radius: 50%;
+}
+
+.pricing__card__price-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.pricing__card__price {
+    margin-right: 0.5rem;
+}
+
+.pricing__card__price-description {
+    color: var(--royal-blue);
+}
+
+.pricing__card.dark-card .pricing__card__price-description {
+    color: var(--yellow);
+}
+
+.pricing__card__content {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    height: 370px;
+}
+
+.pricing__card__heading {
+    margin-bottom: 0.5rem;
+}
+
+.pricing__card__subheading {
+    opacity: 0.7;
+}
+
+.pricing__card__list {
+    margin-top: auto;
+}
+
+.pricing__card__list__item {
+    display: flex;
+    color: var(--dark-blue);
+}
+
+.pricing__card__list__item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.pricing__card__item__list__pointer {
+    margin-right: 12px;
+}
+
+.pricing__card.dark-card .pricing__card__list__item {
+    color: #FFF;
+}
+
+.pricing__card.dark-card .pricing__card__subheading {
+    margin-bottom: 4rem;
+}
+
+.inactive {
+    opacity: 0.7;
+}
+
+.pricing__card__button-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing__card__button {
+    width: 80%;
+    border-radius: 41px;
+    font-size: 18px;
+    padding: 1rem;
+    background-color: var(--dark-blue);
+    color: #FFF;
+}
+
+.pricing__card__button:hover {
+    opacity: 0.7;
+}
+
+.pricing__card.dark-card .pricing__card__button {
+    background-color: var(--yellow);
+    color: var(--dark-blue);
+}
